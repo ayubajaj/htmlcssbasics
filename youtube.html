@@ -50,22 +50,17 @@
         line-height: 20px;
         margin-bottom: 12px;
       }
-      .channel-pic {
-        vertical-align: top;
-        display: inline-block;
-        width: 50px;
-      }
-      .video-info {
-        display: inline-block;
-        width: 200px;
-        margin-left: 10px;
-      }
+
       .profile-pic {
-        width: 50px;
+        width: 40px;
         border-radius: 50px;
       }
       .thumbnail-row {
         margin-bottom: 10px;
+      }
+      .video-info-grid {
+        display: grid;
+        grid-template-columns: 50px 1fr;
       }
     </style>
   </head>
@@ -76,7 +71,7 @@
       <div class="thumbnail-row">
         <img class="thumbnail" src="thumbnail\thumbnail-1.webp" />
       </div>
-      <div>
+      <div class="video-info-grid">
         <div class="channel-pic">
           <img class="profile-pic" src="channelpics/channel-1.jpeg" alt="" />
         </div>
@@ -93,7 +88,7 @@
       <div class="thumbnail-row">
         <img class="thumbnail" src="thumbnail\thumbnail-2.webp" />
       </div>
-      <div>
+      <div class="video-info-grid">
         <div class="channel-pic">
           <img class="profile-pic" src="channelpics/channel-2.jpeg" alt="" />
         </div>

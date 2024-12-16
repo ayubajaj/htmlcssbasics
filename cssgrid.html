@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Css grid</title>
+  </head>
+  <body>
+    <div style="display: grid; grid-template-columns: 100px 100px 100px">
+      <div style="background-color: rgb(199, 133, 48)">div1</div>
+      <div style="background-color: rgb(14, 105, 44)">div2</div>
+      <div style="background-color: rgb(6, 66, 133)">div3</div>
+    </div>
+    <div
+      style="
+        margin-top: 6px;
+        display: grid;
+        grid-template-columns: 100px 100px 200px;
+      "
+    >
+      <div style="background-color: rgb(199, 133, 48)">div1</div>
+      <div style="background-color: rgb(14, 105, 44)">div2</div>
+
+      <div style="background-color: rgb(6, 66, 133)">div3</div>
+      <div style="background-color: rgb(6, 66, 133)">div3</div>
+    </div>
+    <div
+      style="
+        margin-top: 6px;
+        display: grid;
+        grid-template-columns: 100px 100px 1fr;
+      "
+    >
+      <div style="background-color: rgb(199, 133, 48)">div1</div>
+      <div style="background-color: rgb(14, 105, 44)">div2</div>
+
+      <div style="background-color: rgb(6, 66, 133)">div3</div>
+    </div>
+  </body>
+</html>
