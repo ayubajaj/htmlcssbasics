@@ -24,6 +24,7 @@
   top: 0;
   left: 0;
   right: 0;
+  z-index: 100;
   background-color: white;
   border-bottom-style: solid;
   border-bottom-width: 1px;
@@ -32,6 +33,19 @@
 .left-section {
   display: flex;
   align-items: center;
+}
+.notifications-container {
+  position: relative;
+}
+.notifications-count {
+  position: absolute;
+  top: -3px;
+  right: -2px;
+  background-color: rgb(218, 119, 119);
+  color: aliceblue;
+  font-size: 8px;
+  padding: 2px 5px 2px 5px;
+  border-radius: 10px;
 }
 .middle-section {
   flex: 1;
